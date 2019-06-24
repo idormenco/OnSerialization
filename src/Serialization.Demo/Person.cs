@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Serialization.Demo
 {
-	public enum MariageStatus
+	public enum Status
 	{
 		Single,
 		Married,
@@ -15,7 +15,7 @@ namespace Serialization.Demo
 		public string Name { get; set; }
 		public DateTime BirthDate { get; set; }
 		public DateTime MariedDate { get; set; }
-		public MariageStatus MariageStatus { get; set; }
+		public Status Status { get; set; }
 		public List<IPet> Pets { get; set; } = new List<IPet>();
 	}
 }

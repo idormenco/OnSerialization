@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "Bogus/27.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -211,6 +220,25 @@
     }
   },
   "libraries": {
+    "Bogus/27.0.1": {
+      "sha512": "KSHHVSlV45Mu43vBayZ4BZW509Qs7bjmeBLeh2JQNW4iZzphinf6cri7rxgog6xxOvjj4gG4QbPr0/w1d66hnA==",
+      "type": "package",
+      "path": "bogus/27.0.1",
+      "files": [
+        ".signature.p7s",
+        "bogus.27.0.1.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.pdb",
+        "lib/net40/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.pdb",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.pdb",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
     "Microsoft.NETCore.App/2.1.0": {
       "sha512": "2DtRTpAhUdaPDnBM1R4Tbl1hxLW+3L4/byMonI+7aAQPFRmVeKc1epmM4wpxA4h1E7uK6tSPOBOU7f+MDcY5Bg==",
       "type": "package",
@@ -685,6 +713,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Bogus >= 27.0.1",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -729,6 +758,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[27.0.1, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",

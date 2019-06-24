@@ -328,3 +328,5 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+src/Serialization.Demo/obj/Debug/netcoreapp2.1/Serialization.Demo.assets.cache
+src/Serialization.Demo/obj/Debug/netcoreapp2.1/Serialization.Demo.csproj.CoreCompileInputs.cache

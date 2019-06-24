@@ -13,6 +13,7 @@ namespace Serialization.Demo
 
 	public class BFO
 	{
+		public DocumentTypeEnum DocumentType { get; set; }
 		public List<Person> Persons { get; set; }
 		public List<House> Houses { get; set; }
 		public DateTime Created { get; set; }
