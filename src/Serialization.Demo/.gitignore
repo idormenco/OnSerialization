@@ -8,7 +8,7 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.vscode
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -330,7 +330,3 @@ ASALocalRun/
 .mfractor/
 src/Serialization.Demo/obj/Debug/netcoreapp2.1/Serialization.Demo.assets.cache
 src/Serialization.Demo/obj/Debug/netcoreapp2.1/Serialization.Demo.csproj.CoreCompileInputs.cache
-.vscode/tasks.json
-.vscode/launch.json
-src/Serialization.Demo/obj/project.assets.json
-src/Serialization.Demo/obj/Serialization.Demo.csproj.nuget.cache
