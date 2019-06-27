@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Serialization.Demo
+namespace Serialization.Demo.Data
 {
 	public interface IPet
 	{

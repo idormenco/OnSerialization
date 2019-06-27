@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Serialization.Demo
+namespace Serialization.Demo.Data
 {
 	public enum DocumentTypeEnum
 	{

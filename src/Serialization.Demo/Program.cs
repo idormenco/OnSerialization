@@ -7,8 +7,7 @@ namespace Serialization.Demo
     {
         static void Main(string[] args)
         {
-            DataGenerator d = new DataGenerator();
-            d.PersonsFaker().FinishWith((f,p)=>{
+			DataGenerator.PersonsFaker().FinishWith((f,p)=>{
                  Console.WriteLine(JsonConvert.SerializeObject(p, Formatting.Indented));
             }).Generate(230);
         }

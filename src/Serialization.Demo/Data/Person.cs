@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Serialization.Demo
+namespace Serialization.Demo.Data
 {
 	public enum Status
 	{
